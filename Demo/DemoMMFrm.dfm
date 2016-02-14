@@ -1,9 +1,9 @@
 object frmDemoMM: TfrmDemoMM
   Left = 354
   Top = 300
-  Width = 407
-  Height = 346
   Caption = 'Demo Message Master'
+  ClientHeight = 317
+  ClientWidth = 401
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -123,7 +123,6 @@ object frmDemoMM: TfrmDemoMM
     Width = 153
     Height = 21
     Style = csDropDownList
-    ItemHeight = 13
     ItemIndex = 0
     TabOrder = 7
     Text = 'Italian'
