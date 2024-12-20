@@ -255,6 +255,7 @@ begin
 
   if MsgOptions.UseCustomFont then
     Font.Assign(MsgOptions.Font);
+  PopupMode := pmExplicit;
 end;
 
 destructor TMessageForm.Destroy;
@@ -785,6 +786,7 @@ begin
   StatusForm := TMessageForm.CreateNew(Application);
   with StatusForm do
   begin
+    Position := TPosition.poDesigned;
     Left := sPosition.X;
     Top := sPosition.Y;
     FormStyle := fsStayOnTop;
